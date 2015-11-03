@@ -1,6 +1,6 @@
 {
   "name": "psd-extractor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "extract fonts and colors from psds",
   "main": "./lib/psd-extractor.js",
   "bin": {
