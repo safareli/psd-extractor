@@ -1,7 +1,12 @@
-# psd-extractor
-extract font faces, sizes and colors from PSDs, accumulate and see their usage count.
+# psd-extractor [![NPM version][npm-image]][npm-url]
+> extract font faces, sizes and colors from PSDs, accumulate and see their usage count.
 
-> for example output see  [examples/extracted.json](https://github.com/safareli/psd-extractor/blob/master/examples/extracted.json)
+[![NPM newer][nodei-image]][npm-url]
+
+[npm-url]: https://npmjs.org/package/psd-extractor
+[npm-image]: https://badge.fury.io/js/psd-extractor.png
+[nodei-image]: https://nodei.co/npm-dl/psd-extractor.png?months=1
+
 
 ##cli
 
@@ -15,10 +20,12 @@ $ psd-extractor
 
 
 or pass list of files as arguments: 
+
 ```
 $ psd-extractor foo.psd pages/*.psd
 ```
 
+example output: [examples/extracted.json](https://github.com/safareli/psd-extractor/blob/master/examples/extracted.json)
 
 ##js
 
@@ -28,3 +35,4 @@ var fooData = psdExtractor('foo.psd')
 var pageData = psdExtractor('pages/*.psd')
 var allData = psdExtractor(['foo.psd', 'pages/*.psd'])
 ```
+
