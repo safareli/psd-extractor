@@ -8,7 +8,7 @@
 [nodei-image]: https://nodei.co/npm-dl/psd-extractor.png?months=1
 
 
-##cli
+## cli
 
 > Usage: psd-extractor `<file ...>`
 
@@ -27,7 +27,7 @@ $ psd-extractor foo.psd pages/*.psd
 
 example output: [examples/extracted.json](https://github.com/safareli/psd-extractor/blob/master/examples/extracted.json)
 
-##js
+## js
 
 ```javascript
 var psdExtractor = require("psd-extractor")
