@@ -7,6 +7,7 @@
     "psd-extractor": "./bin/psd-extractor-cli.js"
   },
   "dependencies": {
+    "color": "^0.10.1",
     "commander": "^2.9.0",
     "glob": "^5.0.15",
     "is-glob": "^2.0.1",

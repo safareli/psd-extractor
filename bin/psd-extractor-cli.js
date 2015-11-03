@@ -21,7 +21,7 @@ program
 
 logAsJSON(
   psdExtractor(
-    R.empty(program.args) 
+    R.isEmpty(program.args) 
       ? '*.psd' 
       : program.args
   )
