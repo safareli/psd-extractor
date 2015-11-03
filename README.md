@@ -23,7 +23,7 @@ $ psd-extractor foo.psd pages/*.psd
 ##js
 
 ```javascript
-var psdExtractor = require("../lib/psd-extractor.js")
+var psdExtractor = require("psd-extractor")
 var fooData = psdExtractor('foo.psd')
 var pageData = psdExtractor('pages/*.psd')
 var allData = psdExtractor(['foo.psd', 'pages/*.psd'])
